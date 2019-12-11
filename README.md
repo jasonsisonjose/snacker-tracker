@@ -34,10 +34,8 @@ for quick access if they decide they would like to go there.
 
 **3.) Setting up the Application**
 	i.) 	Locate and open the contents of the local folder
-	
 	ii.) 	In a separate window, Open the contents of the local folder 
 			and locate the src folder.
-
 	iii.) 	Copy the src folder of the local Folder and replace the src folder 
 			of the snacker_trackers_app file with the copied src folder.
 
