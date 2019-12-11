@@ -1,0 +1,32 @@
+{
+  "data":
+[{
+  "name": "McDonalds",
+  "address": [
+    {
+      "street": "123 Easy Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipcode": 90620,
+    }
+  ],
+  "genre":"Burgers",
+  "avg_rating": 4.56,
+  "price":"$"
+},
+{
+  "name": "Chipotle",
+  "address": [
+    {
+      "street": "123 Easy Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipcode": 90620,
+    }
+  ],
+  "genre":"Burritos",
+  "avg_rating": 4.92,
+  "price":"$$"
+}
+]
+}
