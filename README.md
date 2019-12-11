@@ -1,4 +1,4 @@
-Snacker Trackers
+#Snacker Trackers#
 
 App Discription:
 Snacker Trackers is web based food recommendation app that allows the user
