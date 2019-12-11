@@ -1,68 +1,87 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Snacker Trackers
 
-## Available Scripts
+App Discription:
+Snacker Trackers is web based food recommendation app that allows the user
+to sift through a list of nearby restaurants or local food/drink establishments.
+The application its self allows the user to store liked restuarants
+for quick access if they decide they would like to go there.
 
-In the project directory, you can run:
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Installation instructions -
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+1.) Create a React Environment:
+	i.) 	To create a React Environment, the user must ensure that specific libraries
+			are present on their device. Create a local folder and Name it "Snacker Trackers"
+	ii.)	To install the following modules into the command prompt by using:
+				- npm install react
+				- npm install Node.js
+	iii.)	Once installed, Go into the Snacker Trackers folder within the command terminal and
+			use the following line to create the react environment:
+				- npx create-react-app snacker_trackers_app
+ 	iv.)	Navigate into the snacker_trackers_app using cd./snacker_trackers_app and install
+			the follow modules:
+				- npm install react-dom
+				- npm install firebase
+				- npm install axios
 
-### `yarn test`
+	Once all modules have been installed, the environment will be ready to for the remaining files
+		to be pushed in
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2.) Downloading the Application
+	i.) 	Download the contents of "https://github.com/jasonsisonjose/snacker-tracker" onto a separate 
+			local folder.
 
-### `yarn build`
+3.) Setting up the Application
+	i.) 	Locate and open the contents of the local folder
+	
+	ii.) 	In a separate window, Open the contents of the local folder 
+			and locate the src folder.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+	iii.) 	Copy the src folder of the local Folder and replace the src folder 
+			of the snacker_trackers_app file with the copied src folder.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+4.) Running the application
+	i.) 	Navigate to the snacker_trackers_app folder within the terminal and use the command:
+			- npm run start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+If all Done correctly, the Snacker Trackers application will have loaded into the webpage!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Operation Guide - 
+	
+	Main Page:
+		The Main consist of a few components including:
+			1.) Search Bar
+			2.) Price Sorting Drop-Down
+			3.) Next and Previous Button
+			4.) Displayed Local Restaurant
+			5.) Like Button
 
-## Learn More
+		To search Restuarants by location, write either the restaurant name, city, or zip code.
+	You may also choose to search based by price by also selecting a price range and pressing the 
+	search button. The webpage will then display a single restuarant at a time. You may navigate 
+	through the restaurants by either pressing the next or previous button respectively. If you press
+	the like button and you are logged in, it will store the the information of the liked restuarant
+	to a list that you may reference in the future. You may click on the liked page to see the list
+	of stored restuarants.
+	
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+	Login/Create User Page:
+		Input your username and password in the respective fields and press Enter to log-in
+		
+		If you do not have an account, click the 'Register Button'. A new window will prompt
+	you to input all required fields. Press the button to finish registering the account and go to
+	the login page again to login.
+		
+	
+	Liked Page
+		The page will display a list of all the likes items in the form of objects to click. 
+	After clicking an object, it will redirect you to the a New page where it will display the
+	The restuarant information.
+	
+	About
+		You're already here, bruh. But go ahead and try clicking it again (Recursion at its best)
