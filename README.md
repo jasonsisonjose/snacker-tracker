@@ -1,4 +1,4 @@
-#Snacker Trackers#
+**Snacker Trackers**
 
 App Discription:
 Snacker Trackers is web based food recommendation app that allows the user
@@ -8,7 +8,7 @@ for quick access if they decide they would like to go there.
 
 
 
-Installation instructions -
+**Installation instructions -**
 
 1.) Create a React Environment:
 	i.) 	To create a React Environment, the user must ensure that specific libraries
@@ -28,11 +28,11 @@ Installation instructions -
 	Once all modules have been installed, the environment will be ready to for the remaining files
 		to be pushed in
 
-2.) Downloading the Application
+**2.) Downloading the Application**
 	i.) 	Download the contents of "https://github.com/jasonsisonjose/snacker-tracker" onto a separate 
 			local folder.
 
-3.) Setting up the Application
+**3.) Setting up the Application**
 	i.) 	Locate and open the contents of the local folder
 	
 	ii.) 	In a separate window, Open the contents of the local folder 
@@ -41,7 +41,7 @@ Installation instructions -
 	iii.) 	Copy the src folder of the local Folder and replace the src folder 
 			of the snacker_trackers_app file with the copied src folder.
 
-4.) Running the application
+**4.) Running the application**
 	i.) 	Navigate to the snacker_trackers_app folder within the terminal and use the command:
 			- npm run start
 
@@ -51,7 +51,7 @@ If all Done correctly, the Snacker Trackers application will have loaded into th
 
 
 
-Operation Guide - 
+**Operation Guide - **
 	
 	Main Page:
 		The Main consist of a few components including:
