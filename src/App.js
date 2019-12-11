@@ -1,11 +1,9 @@
-// import logo from './logo.svg';
 import React, {Component} from 'react';
-// import { BrowserRouter as Router, Route } from 'react-router-dom';
-import fire from './config/Fire';
+import fire from './config/Firestore';
 import Toolbar from './components/toolbar/Toolbar';
-import LoginRegister from './components/LoginRegister';
+import Register from './components/Register';
 import Home from './components/Home';
-import About from './components/About';
+import './App.css';
 
 
 class App extends Component {
@@ -15,6 +13,7 @@ class App extends Component {
       user: null
     }
   }
+
 
   componentDidMount() {
     this.authListener();
@@ -29,22 +28,20 @@ class App extends Component {
       }
     });
   }
-//29:47
-  render(){
+
+  render() {
     return(
       <div className = "App">
         <Toolbar />
 
         <main style={{marginTop: '90px'}}>
-          {this.state.user ? (<Home />) : (<LoginRegister />)}
+          {this.state.user ? (<Home />) : (<Register />)}
         </main>
 
       </div>
     );
   }
 }
-
-
 
 
 export default App;
