@@ -51,7 +51,7 @@ If all Done correctly, the Snacker Trackers application will have loaded into th
 
 
 
-**Operation Guide - **
+**Operation Guide -**
 	
 	Main Page:
 		The Main consist of a few components including:
